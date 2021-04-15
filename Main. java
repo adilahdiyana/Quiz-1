@@ -9,12 +9,12 @@ public class Main {
 		c.setColor("Blue");
 		c.setAge(10);
 		c.setWeight(0.7);
-		c.setGender(female);
+		c.setGender("female");
 		
 		 
 		 System.out.println("Color: "+c.getColor());
-		 System.out.println("Age: "+c.getAge());
-		 System.out.println("Weight: "+c.getWeight());
+		 System.out.println("Age: "+c.getAge() + "years old");
+		 System.out.println("Weight: "+c.getWeight() + "kg");
 		 System.out.println("Gender: "+c.getGender());
 		 System.out.println();
 	}
