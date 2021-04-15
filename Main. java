@@ -1,0 +1,22 @@
+package Quiz;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Cat c = new Cat();
+		
+		c.setColor("Blue");
+		c.setAge(10);
+		c.setWeight(0.7);
+		c.setGender(female);
+		
+		 
+		 System.out.println("Color: "+c.getColor());
+		 System.out.println("Age: "+c.getAge());
+		 System.out.println("Weight: "+c.getWeight());
+		 System.out.println("Gender: "+c.getGender());
+		 System.out.println();
+	}
+	
+}
